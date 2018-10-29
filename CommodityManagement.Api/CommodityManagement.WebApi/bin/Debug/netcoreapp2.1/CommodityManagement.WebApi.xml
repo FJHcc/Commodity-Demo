@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CommodityManagement.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:CommodityManagement.WebApi.Api.CommodityController">
+            <summary>
+            商品Api
+            </summary>
+        </member>
+        <member name="M:CommodityManagement.WebApi.Api.CommodityController.NewCommodity(CommodityManagement.Service.ICommodityService,CommodityManagement.Service.NewCommodityDto)">
+            <summary>
+            新增商品
+            </summary>
+            <param name="CommodityService"></param>
+            <param name="commodity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.WebApi.Api.CommodityController.EditCommodity(CommodityManagement.Service.ICommodityService,CommodityManagement.Service.EditCommodityDto)">
+            <summary>
+            修改商品
+            </summary>
+            <param name="CommodityService"></param>
+            <param name="commodity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.WebApi.Api.CommodityController.CommodityList(CommodityManagement.Service.ICommodityService,CommodityManagement.Service.PageArgument)">
+            <summary>
+            商品列表
+            </summary>
+            <param name="CommodityService"></param>
+            <param name="page"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.WebApi.Api.CommodityController.SearchCommodity(CommodityManagement.Service.ICommodityService,System.String,System.Int32,CommodityManagement.Repository.Enum.CommodityStatus)">
+            <summary>
+            搜索商品
+            </summary>
+            <param name="CommodityService"></param>
+            <param name="parameter"></param>
+            <param name="tagId"></param>
+            <param name="status"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.WebApi.Api.CommodityController.DeleteCommodity(CommodityManagement.Service.ICommodityService,System.Int64)">
+            <summary>
+            删除商品
+            </summary>
+            <param name="CommodityService"></param>
+            <param name="id">商品id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.WebApi.Api.CommodityController.DetailCommodity(CommodityManagement.Service.ICommodityService,CommodityManagement.Service.DetailCommodityDto)">
+            <summary>
+            商品详情
+            </summary>
+            <param name="CommodityService"></param>
+            <param name="commodity"></param>
+            <param name="id">商品id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.WebApi.Api.CommodityController.ShelfGoods(CommodityManagement.Service.ICommodityService,System.Int64)">
+            <summary>
+            上架商品
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.WebApi.Api.CommodityController.LowerGoods(CommodityManagement.Service.ICommodityService,System.Int64)">
+            <summary>
+            下架商品
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CommodityManagement.WebApi.Api.TagController">
+            <summary>
+            标签Api
+            </summary>
+        </member>
+        <member name="M:CommodityManagement.WebApi.Api.TagController.NewTag(CommodityManagement.Service.ITagService,CommodityManagement.Service.NewTagDto)">
+            <summary>
+            新建标签
+            </summary>
+            <param name="TagService"></param>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.WebApi.Api.TagController.EditTag(CommodityManagement.Service.ITagService,CommodityManagement.Service.EditTagDto,System.String)">
+            <summary>
+            编辑标签
+            </summary>
+            <param name="TagService"></param>
+            <param name="tag"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.WebApi.Api.TagController.DeleteTag(CommodityManagement.Service.ITagService,System.String)">
+            <summary>
+            删除标签
+            </summary>
+            <param name="tagService"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.WebApi.Api.TagController.Taglist(CommodityManagement.Service.ITagService)">
+            <summary>
+            标签列表
+            </summary>
+            <param name="tagService"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

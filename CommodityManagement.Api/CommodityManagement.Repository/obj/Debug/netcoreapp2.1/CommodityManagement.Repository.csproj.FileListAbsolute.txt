@@ -1,0 +1,9 @@
+D:\myC\CommodityManagement.Api\CommodityManagement.Repository\bin\Debug\netcoreapp2.1\CommodityManagement.Repository.deps.json
+D:\myC\CommodityManagement.Api\CommodityManagement.Repository\bin\Debug\netcoreapp2.1\CommodityManagement.Repository.dll
+D:\myC\CommodityManagement.Api\CommodityManagement.Repository\obj\Debug\netcoreapp2.1\CommodityManagement.Repository.csprojAssemblyReference.cache
+D:\myC\CommodityManagement.Api\CommodityManagement.Repository\obj\Debug\netcoreapp2.1\CommodityManagement.Repository.csproj.CoreCompileInputs.cache
+D:\myC\CommodityManagement.Api\CommodityManagement.Repository\obj\Debug\netcoreapp2.1\CommodityManagement.Repository.AssemblyInfoInputs.cache
+D:\myC\CommodityManagement.Api\CommodityManagement.Repository\obj\Debug\netcoreapp2.1\CommodityManagement.Repository.AssemblyInfo.cs
+D:\myC\CommodityManagement.Api\CommodityManagement.Repository\bin\Debug\netcoreapp2.1\CommodityManagement.Repository.pdb
+D:\myC\CommodityManagement.Api\CommodityManagement.Repository\obj\Debug\netcoreapp2.1\CommodityManagement.Repository.dll
+D:\myC\CommodityManagement.Api\CommodityManagement.Repository\obj\Debug\netcoreapp2.1\CommodityManagement.Repository.pdb

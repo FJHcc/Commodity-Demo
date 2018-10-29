@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.1\CommodityManagement.Service.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPinyin" Version="0.2.6321.26573" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommodityManagement.Repository\CommodityManagement.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CommodityManagement.Service</name>
+    </assembly>
+    <members>
+        <member name="T:CommodityManagement.Service.Common.GetSpelling">
+            <summary>
+            获取拼音公共类
+            </summary>
+        </member>
+        <member name="M:CommodityManagement.Service.Common.GetSpelling.Spelling(System.String)">
+            <summary>
+            获取商品名字拼音方法
+            </summary>
+            <param name="name">商品名字</param>
+            <returns></returns>
+        </member>
+        <member name="P:CommodityManagement.Service.CommodityListDto.Number">
+            <summary>
+            商品编号
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.CommodityListDto.Name">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.CommodityListDto.Price">
+            <summary>
+            商品价格
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.CommodityListDto.Status">
+            <summary>
+            上架状态
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.CommodityListDto.DbCreateAt">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.CommodityListDto.DbUpdateAt">
+            <summary>
+            最后修改时间
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.DetailCommodityDto.Id">
+            <summary>
+            商品id
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.DetailCommodityDto.Number">
+            <summary>
+            商品编号
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.DetailCommodityDto.Name">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.DetailCommodityDto.Price">
+            <summary>
+            商品价格
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.DetailCommodityDto.Description">
+            <summary>
+            商品描述
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.DetailCommodityDto.Tag">
+            <summary>
+            商品标签
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.DetailCommodityDto.StatusId">
+            <summary>
+            上架状态
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.DetailCommodityDto.DbCreateAt">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.DetailCommodityDto.DbUpdateAt">
+            <summary>
+            最后修改时间
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.EditCommodityDto.Id">
+            <summary>
+            商品id
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.EditCommodityDto.Name">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.EditCommodityDto.Price">
+            <summary>
+            商品价格
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.EditCommodityDto.Description">
+            <summary>
+            商品描述
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.EditCommodityDto.Tag">
+            <summary>
+            商品标签
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.NewCommodityDto.Number">
+            <summary>
+            商品编号
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.NewCommodityDto.Name">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.NewCommodityDto.Price">
+            <summary>
+            商品价格
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.NewCommodityDto.Description">
+            <summary>
+            商品描述
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.NewCommodityDto.Tag">
+            <summary>
+            商品标签
+            </summary>
+        </member>
+        <member name="T:CommodityManagement.Service.PageArguementExention">
+            <summary>
+            分页的拓展方法
+            </summary>
+        </member>
+        <member name="M:CommodityManagement.Service.PageArguementExention.IsTrue(CommodityManagement.Service.PageArgument)">
+            <summary>
+            判断传入的page参数是否合法
+            </summary>
+            <param name="page"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.ICommodityService.NewCommodity(CommodityManagement.Service.NewCommodityDto)">
+            <summary>
+            新增商品
+            </summary>
+            <param name="commodity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.ICommodityService.DeleteCommodity(System.Int64)">
+            <summary>
+            删除商品
+            </summary>
+            <param name="id">商品id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.ICommodityService.EditCommodity(CommodityManagement.Service.EditCommodityDto)">
+            <summary>
+            修改商品
+            </summary>
+            <param name="commodity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.ICommodityService.SerachCommodity(System.String,System.Int32,CommodityManagement.Repository.Enum.CommodityStatus)">
+            <summary>
+            搜索商品
+            </summary>
+            <param name="parameter">搜索框参数</param>
+            <param name="tagId">标签id</param>
+            <param name="status">上架状态id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.ICommodityService.CommodityList(CommodityManagement.Service.PageArgument)">
+            <summary>
+            商品列表
+            </summary>
+            <param name="page">分页对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.ICommodityService.DetailCommodity(System.Int64)">
+            <summary>
+            商品详情
+            </summary>
+            <param name="id">商品id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.ICommodityService.ShelfCommodity(System.Int64)">
+            <summary>
+            上架商品
+            </summary>
+            <param name="id">商品id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.ICommodityService.LowerCommodity(System.Int64)">
+            <summary>
+            下架商品
+            </summary>
+            <param name="id">商品id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.ITagService.NewTag(CommodityManagement.Service.NewTagDto)">
+            <summary>
+            新增标签
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.ITagService.DeleteTag(System.String)">
+            <summary>
+            删除标签
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.ITagService.EditTag(CommodityManagement.Service.EditTagDto,System.String)">
+            <summary>
+            修改标签
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.ITagService.TagList">
+            <summary>
+            标签列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CommodityManagement.Service.CommodityService">
+            <summary>
+            商品方法具体实现
+            </summary>
+        </member>
+        <member name="F:CommodityManagement.Service.CommodityService._db">
+            <summary>
+            服务声明
+            </summary>
+        </member>
+        <member name="M:CommodityManagement.Service.CommodityService.#ctor(CommodityManagement.Repository.MyDbContext)">
+            <summary>
+            依赖注入
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:CommodityManagement.Service.CommodityService.CommodityList(CommodityManagement.Service.PageArgument)">
+            <summary>
+            获取商品列表
+            </summary>
+            <param name="page">分页对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.CommodityService.DeleteCommodity(System.Int64)">
+            <summary>
+            删除商品
+            </summary>
+            <param name="id">商品id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.CommodityService.DetailCommodity(System.Int64)">
+            <summary>
+            商品详情
+            </summary>
+            <param name="id">商品id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.CommodityService.EditCommodity(CommodityManagement.Service.EditCommodityDto)">
+            <summary>
+            修改商品
+            </summary>
+            <param name="commodity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.CommodityService.NewCommodity(CommodityManagement.Service.NewCommodityDto)">
+            <summary>
+            新增商品
+            </summary>
+            <param name="commodity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.CommodityService.SerachCommodity(System.String,System.Int32,CommodityManagement.Repository.Enum.CommodityStatus)">
+            <summary>
+            搜索商品
+            </summary>
+            <param name="parameter">搜索框参数</param>
+            <param name="tagId">标签id</param>
+            <param name="status">上架状态id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.CommodityService.ShelfCommodity(System.Int64)">
+            <summary>
+            上架商品
+            </summary>
+            <param name="id">商品id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.CommodityService.LowerCommodity(System.Int64)">
+            <summary>
+            下架商品
+            </summary>
+            <param name="id">商品id</param>
+            <returns></returns>
+        </member>
+        <member name="T:CommodityManagement.Service.TagService">
+            <summary>
+            标签方法具体实现
+            </summary>
+        </member>
+        <member name="F:CommodityManagement.Service.TagService._db">
+            <summary>
+            服务声明
+            </summary>
+        </member>
+        <member name="M:CommodityManagement.Service.TagService.#ctor(CommodityManagement.Repository.MyDbContext)">
+            <summary>
+            构造函数依赖注入
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:CommodityManagement.Service.TagService.DeleteTag(System.String)">
+            <summary>
+            删除标签
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.TagService.EditTag(CommodityManagement.Service.EditTagDto,System.String)">
+            <summary>
+            修改标签
+            </summary>
+            <param name="tag"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.TagService.NewTag(CommodityManagement.Service.NewTagDto)">
+            <summary>
+            新增标签
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommodityManagement.Service.TagService.TagList">
+            <summary>
+            标签列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CommodityManagement.Service.PageArgument">
+            <summary>
+            分页模型
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.PageArgument.PageIndex">
+            <summary>
+            请求页码
+            </summary>
+        </member>
+        <member name="P:CommodityManagement.Service.PageArgument.PageSize">
+            <summary>
+            每页记录数
+            </summary>
+        </member>
+    </members>
+</doc>

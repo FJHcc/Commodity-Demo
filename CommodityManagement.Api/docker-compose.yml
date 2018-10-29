@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  commoditymanagement.webapi:
+    image: ${DOCKER_REGISTRY}commoditymanagementwebapi
+    build:
+      context: .
+      dockerfile: CommodityManagement.WebApi\Dockerfile

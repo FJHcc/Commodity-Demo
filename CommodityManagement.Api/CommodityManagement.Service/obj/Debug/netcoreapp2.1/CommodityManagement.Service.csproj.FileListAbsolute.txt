@@ -1,0 +1,13 @@
+D:\myC\CommodityManagement.Api\CommodityManagement.Service\bin\Debug\netcoreapp2.1\CommodityManagement.Service.deps.json
+D:\myC\CommodityManagement.Api\CommodityManagement.Service\bin\Debug\netcoreapp2.1\CommodityManagement.Service.dll
+D:\myC\CommodityManagement.Api\CommodityManagement.Service\bin\Debug\netcoreapp2.1\CommodityManagement.Service.pdb
+D:\myC\CommodityManagement.Api\CommodityManagement.Service\obj\Debug\netcoreapp2.1\CommodityManagement.Service.csprojAssemblyReference.cache
+D:\myC\CommodityManagement.Api\CommodityManagement.Service\obj\Debug\netcoreapp2.1\CommodityManagement.Service.csproj.CoreCompileInputs.cache
+D:\myC\CommodityManagement.Api\CommodityManagement.Service\obj\Debug\netcoreapp2.1\CommodityManagement.Service.AssemblyInfoInputs.cache
+D:\myC\CommodityManagement.Api\CommodityManagement.Service\obj\Debug\netcoreapp2.1\CommodityManagement.Service.AssemblyInfo.cs
+D:\myC\CommodityManagement.Api\CommodityManagement.Service\obj\Debug\netcoreapp2.1\CommodityManagement.Service.dll
+D:\myC\CommodityManagement.Api\CommodityManagement.Service\obj\Debug\netcoreapp2.1\CommodityManagement.Service.pdb
+D:\myC\CommodityManagement.Api\CommodityManagement.Service\bin\Debug\netcoreapp2.1\CommodityManagement.Repository.dll
+D:\myC\CommodityManagement.Api\CommodityManagement.Service\bin\Debug\netcoreapp2.1\CommodityManagement.Repository.pdb
+D:\myC\CommodityManagement.Api\CommodityManagement.Service\obj\Debug\netcoreapp2.1\CommodityManagement.Service.csproj.CopyComplete
+D:\myC\CommodityManagement.Api\CommodityManagement.Service\bin\Debug\netcoreapp2.1\CommodityManagement.Service.xml
